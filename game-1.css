@@ -1,0 +1,101 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-image: url("pngtree-halloween-backdrop-with-pumpkins-and-bats-image_2895952.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.nameAndScore {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.name {
+    font-family: 'Witches Crow', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.score {
+    height: 170px;
+    width: 170px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+#generate {
+    background-color: red;
+    border: none;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 300px;
+    height: 75px;
+    font-family: 'Witches Crow', sans-serif;
+}
+#generate:hover {
+    background-color: darkred; 
+}
+.circles {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.circle {
+    background-image: url("scary-pumpkin-halloween-lantern-realistic-vector_1441-733-removebg-preview.png"); 
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+#back {
+    background-color: rgba(0,0,0,0);
+    border: none;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 300px;
+    height: 75px;
+    font-family: 'Witches Crow', sans-serif;
+    border: 4px dashed white
+}
+#back:hover {
+    background-color: darkred; 
+}

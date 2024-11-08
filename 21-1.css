@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+    font-family: 'Witches Crow', sans-serif; 
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(halloween-background-with-halloween-pumpkin-halloween-elements-wood-background_139523-814.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.nameAndScore {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+}
+
+.score {
+    height: 170px;
+    width: 170px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: crimson;
+    border-radius: 10px;
+    color: orange;
+}
+
+#generate {
+    font-family: 'Witches Crow', sans-serif; 
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid orange;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 300px;
+    height: 75px;
+    color: orange;
+}
+#generate:hover {
+    background-color: orangered;
+}
+
+.rectangles {
+    display: flex;
+    justify-content: space-between;
+    width: 42%;
+}
+
+.rectangle {
+    width: 120px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bold;
+    border: 3px solid orange;
+    background-image: url(joker.png);
+    background-size: cover;
+}
+
+.winner {
+    width: 250px;
+    height: 100px;
+    display: flex;
+    margin: 50px ;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url(none);
+    background-size: cover;
+    color: orange;
+}
+
+#back {
+    background-color: rgba(0,0,0,0);
+    border: none;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 300px;
+    height: 75px;
+    font-family: 'Witches Crow', sans-serif;
+    border: 4px dashed white
+}
+#back:hover {
+    background-color: darkred; 
+}

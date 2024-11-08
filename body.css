@@ -1,0 +1,18 @@
+body{
+    background-image: url("pngtree-halloween-wallpaper-hd-1580x900-with-jack-o-lanterns-in-the-corner-image_2886893.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.container {
+    max-width: 600px; 
+    margin: 80px auto 0;
+    background-color: black;
+    border: 4px dashed white;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    color: crimson;
+    font-family: 'Witches Crow', sans-serif;
+}

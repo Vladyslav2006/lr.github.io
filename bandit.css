@@ -1,0 +1,106 @@
+body {
+    text-align: center;
+    font-family: 'Witches Crow', sans-serif; 
+    background-color: white;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: 1600px 900px;
+}
+
+.forname {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    margin-bottom: 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.name {
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    color: gold;
+    text-align: center;
+    font-family: 'Witches Crow', sans-serif; 
+}
+
+.button{
+    margin: 20px 1110px ;
+    margin-top: 87px;
+}
+#generate {
+    font-family: 'Witches Crow', sans-serif; 
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid gold;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 100px;
+    width: 130px;
+    height: 30px;
+    color: gold;
+}
+#generate:hover {
+    background-color: goldenrod;
+}
+
+.objects {
+    position: relative;
+    display: grid;
+    grid-template-columns: 170px 170px 170px;
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 10 auto;
+    width: 50%;
+    height: 200px;
+    margin-top: 105px; 
+    margin-left: 450px;
+}
+
+.slot {
+    width: 75px;
+    height: 50px; 
+    border: 2px solid gold;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.footer{
+    background-color: crimson;
+}
+#back {
+    background-color: rgba(0,0,0,0);
+    border: none;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 300px;
+    height: 75px;
+    font-family: 'Witches Crow', sans-serif;
+    border: 4px dashed white
+}
+#back:hover {
+    background-color: darkred; 
+}

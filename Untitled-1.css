@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    height: 60px;
+    color: white;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 30px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("Dancing\ skeleton\ gif\ dump\ -\ GIFs.gif");
+    background-repeat:no-repeat ;
+    background-position: left; 
+  }
+  
+  .footer {
+    text-align: center;
+    width: 100%;
+    font-family: 'Witches Crow', sans-serif;     
+    font-size: 20px;      
+    color: crimson;                            
+  }
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    font-family: 'Witches Crow', sans-serif;  
+    font-size: 25px;                                                                                      
+  }
+
+  .firstlayer{
+    height: 700px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    background-image: url("pngtree-mexico-day-of-dead-celebration-halloween-death-background-photo-image_28079710.png");
+    background-repeat:no-repeat ;
+    background-position: right; 
+    background-size: 400px 500px;
+  }
+  
+  .whohasmore{
+    margin: 100px 40px 40px 70px;
+    width: 300px;
+    height: 250px;
+    background-image: url("number.avif");
+    border-radius: 15px;
+    border: 4px dashed white;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .game21{
+    margin: 100px 40px 40px 70px;
+    width: 300px;
+    height: 250px;
+    background-image: url("p-240621-08791.webp");
+    border-radius: 15px;
+    border: 4px dashed white;
+    justify-content: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bandit{
+    margin: 100px 40px 40px 70px;
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    border: 4px dashed white;
+    justify-content: center;
+    background-image: url("spooky-wins-await-halloween-slot-machine-extravaganza-casi-03515-01_1000124-126684.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  } 
+  .login {
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .pumpkin {
+    width: 400px;
+    height: 200px;
+    background-image: url("6PTt.gif");
+    background-size: cover;
+    position: relative;
+    margin: 20px auto; 
+    top: -50px;
+}
+.carousel-image {
+    width: 75%;
+    height: 400px; 
+    object-fit: cover; 
+    margin: 0 auto; 
+    border: 7px dashed white;
+}
+
+.crimson{
+color: crimson;    
+}
+
+h5{
+  color: orangered;
+  font-weight: bold;
+}
