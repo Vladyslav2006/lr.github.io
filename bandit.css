@@ -12,7 +12,7 @@ body {
     height: 100vh;
     background-image: url(background.png);
     background-repeat: no-repeat;
-    background-size: 1600px 900px;
+    background-size: cover;
 }
 
 .forname {
